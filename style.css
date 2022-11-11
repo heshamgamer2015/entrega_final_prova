@@ -1,0 +1,229 @@
+body{
+    margin: 0px;
+    width: 100%;
+    background-color: #043873;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 92px;
+}
+.button{
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    border: 0px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+#login{
+    width: 126px;
+    height: 60px;
+    align-items: center;
+    background: #FFE492;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 25px;
+}
+
+.button-1{
+    width: 227px;
+    height: 60px;
+    align-items: center;
+    background: #4F9CF9;
+    border-radius: 8px;
+    border: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+#nav{
+    display: flex;
+    align-items: center;
+}
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 700;
+    font-family: 'inter';
+    color: #fff;
+   
+
+}
+
+.a-1{
+    text-decoration: none;
+    color: #fff;
+}
+
+.a-2{
+    color: #043873;
+    text-decoration: none;
+}
+.hero-section{
+    display: flex;
+    padding-bottom: 250px;
+    width: 100%;
+    height: auto;
+    background-color:#043873 ;
+    background-image: url(/img/linhas-flutuantes.png) ;
+    background-repeat: no-repeat;
+    background-position: top;
+
+}
+.img-inhas-flu{
+    padding: 215px 0px 100px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.texto-hero-div{
+    padding-left: 100px;
+    margin-top: 100px;
+    color: white;
+    display: flex;
+    min-width: 80%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.texto-hero-1{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+}
+.texto-hero-2{
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+.white-screen{
+    background-color: #fff;
+    width: 100%;
+    height: 1300px;
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-ecli{
+    padding: 0px 100px 0px 0px;
+    display: flex;
+}
+.ecli-text{
+
+}
+.texto-1{
+    color: #212529;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    letter-spacing: -0.02em;
+
+}
+.texto-2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    color: #212529;
+}
+.footer-org{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 500px;
+
+}
+.textos-org{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer-text{
+    padding: 0px 0px 0px 20px;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+.menu{
+
+}
+
+@media only screen and (min-width: 1200px){
+    .menu{
+        display: none;   
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .hero-section{
+        width: 926px;
+    }
+    .texto-hero-div{
+        text-align: center;
+        padding-left: 100px;
+        margin-top: 100px;
+        color: white;
+        display: flex;
+        min-width: 80%;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 00px;
+ 
+    }
+    .white-screen{
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 200px;
+        align-items: center;
+        justify-content: center;
+        width: 928px;
+        align-items: center;
+    }
+    .ecli-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+    #nav{
+        display: none;
+    }
+    header{ 
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        gap: 500px;
+        width: 900px;
+    }
+}
+
+ 
+
+
